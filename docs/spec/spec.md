@@ -369,7 +369,7 @@ public isolated function init(ListenerConfiguration listenerConfig) returns Erro
 ```
 #### 4.2.2. Secure Listener
 A secure listener can be initialized by providing `ftp:SFTP` as the protocol and by providing `ftp:Credentials`
-and `ftp:PrivateKey` to `ftp:AuthConfiguration`.
+and `ftp:PrivateKey` to `ftp:AuthConfiguration`. 
 ```ballerina
 ftp:ListenerConfiguration ftpConfig = {
     protocol: ftp:SFTP,
