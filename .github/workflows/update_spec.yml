@@ -10,7 +10,7 @@ on:
       - master
       - test-workflow
     paths:
-      - 'docs/spec'
+      - 'docs/spec/**'
 
 jobs:
   update_specs:
