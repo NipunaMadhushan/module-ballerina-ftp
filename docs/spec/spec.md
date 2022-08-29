@@ -359,7 +359,7 @@ public type WatchEvent record {|
 ### 4.2. Initialization
 #### 4.2.1. Insecure Listener
 An insecure FTP listener can be initialized by providing the mandatory `protocol`, `host`, and  `path` parameters to the 
-`ftp:ListenerConfiguration`.
+`ftp:ListenerConfiguration`. 
 ```ballerina
 # Gets invoked during object initialization.
 #
